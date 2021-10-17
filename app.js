@@ -84,7 +84,7 @@ const checkCards = (e) => {
             playerLives--;
             playerLivesCount.textContent=playerLives;
         if( playerLives === 0) {
-            restart("try again");
+            restart("Try Again!!");
         }
         }
     }
